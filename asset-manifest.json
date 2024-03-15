@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/InvestobullAssignment/static/css/main.51261e8b.css",
-    "main.js": "/InvestobullAssignment/static/js/main.bc99ad5c.js",
-    "static/js/453.3669db72.chunk.js": "/InvestobullAssignment/static/js/453.3669db72.chunk.js",
-    "index.html": "/InvestobullAssignment/index.html",
-    "main.51261e8b.css.map": "/InvestobullAssignment/static/css/main.51261e8b.css.map",
-    "main.bc99ad5c.js.map": "/InvestobullAssignment/static/js/main.bc99ad5c.js.map",
-    "453.3669db72.chunk.js.map": "/InvestobullAssignment/static/js/453.3669db72.chunk.js.map"
+    "main.css": "/investobull/static/css/main.51261e8b.css",
+    "main.js": "/investobull/static/js/main.7a02c483.js",
+    "static/js/453.3669db72.chunk.js": "/investobull/static/js/453.3669db72.chunk.js",
+    "index.html": "/investobull/index.html",
+    "main.51261e8b.css.map": "/investobull/static/css/main.51261e8b.css.map",
+    "main.7a02c483.js.map": "/investobull/static/js/main.7a02c483.js.map",
+    "453.3669db72.chunk.js.map": "/investobull/static/js/453.3669db72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51261e8b.css",
-    "static/js/main.bc99ad5c.js"
+    "static/js/main.7a02c483.js"
   ]
 }
