@@ -24,9 +24,9 @@ function Investo() {
         console.log(`Checkbox for symbol ${symbol} clicked`);
     };
 
-    const calculateTodaysRange = (low, high) => {
-        return high - low;
-    };
+    // const calculateTodaysRange = (low, high) => {
+    //     return high - low;
+    // };
 
     const calculateLTPPercentage = (ltp, open) => {
         return ((ltp - open) / open) * 100;
@@ -78,7 +78,7 @@ function Investo() {
                             <td style={{ padding: "5px", border: "1px solid black" }}>
                                 <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                                     {values.low + ' '}
-                                    <Slider min={values.low} max={values.high} defaultValue={calculateTodaysRange(values.low, values.high)} style={{ marginLeft: '15px', width: '200px', marginRight: '15px' }} />
+                                    <Slider min={0} max={550} defaultValue={(values.high - values.low) / 2} style={{marginLeft:'9px',marginRight:'5px'}}/>
                                     {' ' + values.high}
                                 </div>
                             </td>
